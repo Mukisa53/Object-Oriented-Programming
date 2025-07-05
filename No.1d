@@ -1,0 +1,19 @@
+public class Company {
+    private List<Vehicle> vehicles; // Private attribute
+    private int lostFares; // Private attribute
+
+    public Company() {
+        this.vehicles = new ArrayList<>();
+        this.lostFares = 0;
+    }
+
+    // Public method to schedule a vehicle
+    public boolean scheduleVehicle(Passenger passenger) {
+        // Logic to check for available vehicles and schedule
+    }
+
+    // Getter for lost fares
+    public int getLostFares() {
+        return lostFares;
+    }
+}
